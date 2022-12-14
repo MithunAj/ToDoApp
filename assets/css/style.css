@@ -1,0 +1,77 @@
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column
+}
+
+#description{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+}
+
+#category-due-date{
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#category{
+    display: flex;
+    flex-direction: column;
+}
+
+#due-date{
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons{
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#app-container{
+    width: 350px;
+    background-color: rgb(73, 172, 248);
+    height: auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.task-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Personal{
+    background-color: pink;
+}
+
+.Work{
+    background-color:  greenyellow;
+}
+
+.School{
+    background-color: yellow;
+}
+
+.Other{
+    background-color: cyan;
+}
+
+label{
+    text-decoration: dashed;
+}
+
+body{
+    background-color: pink;
+}
